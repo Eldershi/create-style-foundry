@@ -10,12 +10,14 @@ Give the smeltery and foundry in Tinkers' Construct and Modern Foundry, its port
 
 ## Compatibility and required mods
 
-| Minecraft | Loader | Java | Required mods |
-| --- | --- | --- | --- |
-| 1.20.1 | Forge | 17 | [Create 6.0.8](https://github.com/Creators-of-Create/Create/releases/tag/mc1.20.1-6.0.8), [Tinkers' Construct 3.12.1](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct), [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle) |
-| 1.21.1 | NeoForge | 21 | [Create 6.0.10](https://github.com/Creators-of-Create/Create/releases/tag/mc1.21.1-6.0.10), [Modern Foundry 1.6.1](https://www.curseforge.com/minecraft/mc-mods/modern-foundry), [Hilt](https://modrinth.com/mod/hilt) |
+| Minecraft | Loader | Java | Tinkers' Construct or Modern Foundry | Create | Library |
+| --- | --- | --- | --- | --- | --- |
+| 1.20.1 | Forge | 17 | [Tinkers' Construct 3.11.1–3.12.1](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/all) | [0.5.1.c–0.5.1.j, 6.0.0–6.0.8](https://modrinth.com/mod/create/versions?g=1.20.1) | [Mantle](https://modrinth.com/mod/mantle) |
+| 1.21.1 | NeoForge | 21 | Modern Foundry [1.0.0, 1.5.0, 1.6.0–1.6.1](https://modrinth.com/mod/hexa-tinkers-construct-unofficial-port/versions) or [4.0.1–4.1.8](https://github.com/Modern-Mods/ModernFoundry/releases) | [6.0.0–6.0.10](https://modrinth.com/mod/create/versions?g=1.21.1) | [Hilt](https://modrinth.com/mod/hilt) |
 
-The versions above are the targets for this release. The resource pack runs on the client and changes the appearance of blocks and items.
+Mantle is required by Tinkers' Construct, and Hilt is required by Modern Foundry. Use the library version required by the mod you install. The resource pack runs on the client.
+
+Tinkers' Construct 3.9.x through 3.11.0 use older models for some casting equipment, so texture coverage is partial. Modern Foundry 4.0.0 uses different resource IDs and needs a separate adaptation.
 
 ## Installation
 
