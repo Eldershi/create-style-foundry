@@ -1,0 +1,18 @@
+Create Style Foundry
+
+Artwork and assembly for this resource pack: Eldershi.
+
+Create — simibubi and The Create Team / The Creators of Create
+https://github.com/Creators-of-Create/Create
+The pack references native building sprites from the installed Create mod.
+Edited device surfaces use the Create palette and incorporate adapted portions
+of Create artwork. Rights to the upstream art are retained by its creators.
+https://github.com/Creators-of-Create/Create/blob/mc1.20.1-6.0.8/LICENSE.md
+https://github.com/Creators-of-Create/Create/blob/mc1.21.1-6.0.10/LICENSE.md
+
+Tinkers' Construct — Slime Knights
+https://github.com/SlimeKnights/TinkersConstruct
+Modern Foundry — Modern Mods, adapted from Tinkers' Construct
+https://github.com/Modern-Mods/ModernFoundry
+The reskinned equipment, connected glass and adapted models build on these
+projects. See LICENSE-TINKERS.txt for the upstream MIT notice.
