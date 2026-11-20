@@ -2,7 +2,7 @@
 
 # Create Style Foundry
 
-Give the smeltery and foundry a Create-inspired look with cut stone bricks, dark framed glass, brass vents, and an industrial iron anvil pedestal. Carved scorched bricks retain their original relief with Create's scoria colors and grain.
+Give the smeltery and foundry in Tinkers' Construct and Modern Foundry, its port to newer Minecraft versions, Create-style scoria textures.
 
 ![Seared smeltery with cut bricks, dark framed glass and casting equipment](docs/images/seared.webp)
 

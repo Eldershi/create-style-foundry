@@ -2,7 +2,7 @@
 
 # Create Style Foundry
 
-给匠魂和 Modern Foundry 的冶炼炉、熔铸炉换上机械动力风格的切制砖、深色边框玻璃、黄铜排气口和工业铁砧座。雕纹焦褐砖保留原版浮雕，使用熔渣小砖的配色和颗粒纹理。
+给匠魂和高版本匠魂移植mod Modern Foundry 的冶炼炉、熔铸炉换上机械动力风格的熔渣材质。
 
 ![焦黑冶炼炉的切制砖、深色边框玻璃和浇铸设备](docs/images/seared.webp)
 
