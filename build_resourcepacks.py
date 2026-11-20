@@ -15,7 +15,7 @@ SMELTERY = "block/smeltery/"
 FOUNDRY = "block/foundry/"
 FOUNDRY_TABLE_PLATE = FOUNDRY + "casting/table_plate"
 FOUNDRY_COVERED_PLATE = FOUNDRY + "casting/table_plate_covered"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 HERE = Path(__file__).resolve().parent
 INDUSTRIAL_IRON = "assets/create/textures/block/industrial_iron_block"
 BRICKS = "seared/bricks"
@@ -91,6 +91,17 @@ BRASS_COLORS = {
     (253, 245, 95): (238, 193, 104),
     (255, 253, 224): (255, 235, 140),
 }
+STURDY_SHEET_COLORS = {
+    (16, 12, 28): (11, 13, 21),
+    (24, 19, 38): (25, 27, 36),
+    (32, 25, 51): (42, 42, 55),
+    (39, 30, 61): (67, 66, 81),
+    (59, 39, 84): (112, 110, 130),
+    (71, 47, 102): (142, 141, 161),
+}
+STURDY_SHEET_SURFACES = (
+    "controller/foundry_", "io/chute_", "io/drain_", "io/gauge", "casting/tank_inside",
+)
 
 
 @dataclass(frozen=True)
@@ -356,7 +367,11 @@ def build_scorched_textures(mod, create, namespace):
         image = read_png(mod, asset_name(namespace, path))
         name = path.removeprefix(FOUNDRY)
         shared = bricks if name.startswith(FOUNDRY_BRICK_BACKGROUNDS) else None
-        metal = BRASS_COLORS if name.startswith("io/duct_front_") else None
+        metal = None
+        if name.startswith("io/duct_front_"):
+            metal = BRASS_COLORS
+        elif name.startswith(STURDY_SHEET_SURFACES):
+            metal = STURDY_SHEET_COLORS
         result = remap_surface(image, SCORCHED_STONE_COLORS, metal, shared)
         if image.tobytes() != result.tobytes():
             textures[path] = encode_png(result)

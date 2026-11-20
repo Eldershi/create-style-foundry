@@ -4,9 +4,9 @@
 
 给匠魂和高版本匠魂移植mod Modern Foundry 的冶炼炉、熔铸炉换上机械动力风格的熔渣材质。
 
-![焦黑冶炼炉的切制砖、深色边框玻璃和浇铸设备](docs/images/seared.webp)
+![BSL 光影下的三乘三焦黑冶炼炉、烈焰血灯笼和浇铸设备](docs/images/seared.webp)
 
-![焦褐熔铸炉的切制熔渣砖、黄铜部件和工业铁砧座](docs/images/scorched.webp)
+![BSL 光影下的焦褐熔铸炉、坚固板部件、黄铜排气口和工业铁砧座](docs/images/scorched.webp)
 
 ## 兼容版本与前置模组
 
@@ -22,7 +22,7 @@ Mantle 是匠魂的前置库，Hilt 是 Modern Foundry 的前置库。按所选�
 ## 安装方法
 
 1. 给对应的 Minecraft 版本安装表中的前置模组。
-2. 从[发布页](https://github.com/Eldershi/create-style-foundry/releases/tag/v1.0.0)下载对应的 ZIP。匠魂选 `forge-1.20.1`，Modern Foundry 选 `neoforge-1.21.1`。
+2. 从[发布页](https://github.com/Eldershi/create-style-foundry/releases/latest)下载对应的 ZIP。匠魂选 `forge-1.20.1`，Modern Foundry 选 `neoforge-1.21.1`。
 3. 在 Minecraft 里打开 **选项 → 资源包 → 打开包文件夹**，把 ZIP 原样放进去。
 4. 回到 Minecraft，启用 **Create Style Foundry**。如果还有其他资源包会修改同样的方块，把本材质包移到那些资源包上方，再点**完成**。
 

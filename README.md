@@ -4,9 +4,9 @@
 
 Give the smeltery and foundry in Tinkers' Construct and Modern Foundry, its port to newer Minecraft versions, Create-style scoria textures.
 
-![Seared smeltery with cut bricks, dark framed glass and casting equipment](docs/images/seared.webp)
+![Seared smeltery with a 3 × 3 interior, a blazing-blood lantern, and casting equipment under BSL shaders](docs/images/seared.webp)
 
-![Scorched foundry with cut scoria bricks, brass fittings and an industrial iron anvil pedestal](docs/images/scorched.webp)
+![Scorched foundry with sturdy-sheet fittings, a brass duct, and an industrial iron anvil pedestal under BSL shaders](docs/images/scorched.webp)
 
 ## Compatibility and required mods
 
@@ -22,7 +22,7 @@ Tinkers' Construct 3.9.x through 3.11.0 use older models for some casting equipm
 ## Installation
 
 1. Install the required mods for your Minecraft version.
-2. Download the matching ZIP from the [release page](https://github.com/Eldershi/create-style-foundry/releases/tag/v1.0.0). Choose `forge-1.20.1` for Tinkers' Construct or `neoforge-1.21.1` for Modern Foundry.
+2. Download the matching ZIP from the [release page](https://github.com/Eldershi/create-style-foundry/releases/latest). Choose `forge-1.20.1` for Tinkers' Construct or `neoforge-1.21.1` for Modern Foundry.
 3. In Minecraft, open **Options → Resource Packs → Open Pack Folder**. Put the ZIP in that folder and keep it zipped.
 4. Return to Minecraft and enable **Create Style Foundry**. Move it above any other resource pack that changes the same blocks, then select **Done**.
 
